@@ -1,0 +1,9 @@
+{
+  "name": "@settlr-org/settlr-icons",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js"],
+  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+}

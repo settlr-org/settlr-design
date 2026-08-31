@@ -1,0 +1,9 @@
+{
+  "name": "@settlr-org/settlr-tokens",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "exports": { ".": "./index.js", "./tokens.css": "./tokens.css" },
+  "files": ["index.js", "tokens.css"],
+  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+}

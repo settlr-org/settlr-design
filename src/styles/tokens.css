@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  color: #16231D;
+  background: #F5F7F3;
+  font-synthesis: none;
+  --st-canvas: #F5F7F3;
+  --st-surface: #FFFFFF;
+  --st-surface-muted: #EAF0EC;
+  --st-ink: #16231D;
+  --st-muted: #66736D;
+  --st-border: #D4DED8;
+  --st-primary: #0B6B57;
+  --st-primary-strong: #074A3D;
+  --st-accent: #82D9B7;
+  --st-positive: #167653;
+  --st-negative: #B94A42;
+  --st-warning: #8A5A0A;
+  --st-radius-sm: 8px;
+  --st-radius-md: 14px;
+  --st-radius-lg: 22px;
+  --st-shadow: 0 12px 32px rgba(22, 35, 29, .08);
+}
+
+.theme-dark {
+  --st-canvas: #0B1411;
+  --st-surface: #121F1A;
+  --st-surface-muted: #1B2C25;
+  --st-ink: #F2F7F4;
+  --st-muted: #A2B4AB;
+  --st-border: #2B4036;
+  --st-primary: #82D9B7;
+  --st-primary-strong: #B2EBD2;
+  --st-accent: #3AA982;
+  --st-positive: #82D9B7;
+  --st-negative: #F28B80;
+  --st-warning: #F2C66D;
+  --st-shadow: 0 16px 36px rgba(0, 0, 0, .24);
+  color: var(--st-ink);
+  background: var(--st-canvas);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--st-canvas); }
+button, input { font: inherit; }

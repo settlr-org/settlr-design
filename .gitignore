@@ -1,0 +1,7 @@
+node_modules/
+dist/
+storybook-static/
+.playwright-cli/
+.env*
+!.env.example
+screenshots/generated/
